@@ -15,7 +15,7 @@ function Main() {
           content out within the larger container.
         </p>
       </div>
-  );
+  ); 
 }
 
 export default Main;

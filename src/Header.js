@@ -1,62 +1,42 @@
-import React, { Component } from "react";
-import Main from "./Main"
-import Work from "./Work"
+import React from "react";
+import Background from "./background.jpg";
 
-class Header extends Component {
-
-    constructor(){
-        super()
-        this.state = {
-            number: 0
-        }
-    }
-
-    handlesubmit = (event) => {
-        event.preventDefault()
-        console.log("hello")
-        const eventTarget = event.target.name
-        console.log(eventTarget)
-        eventTarget === "Main" ? this.setState({number: 0}) : this.setState({number:1})
-    }
-  render() {
-    
-        console.log(this.state.number)
-        const page = this.state.number === 0 ? <Main /> : <Work />
-
-    return (
-      <div>
-        <header>
-          <nav className="navbar fixed-top navbar-light bg-light">
-            <h1 className="navbar-brand">Ismael Lopez</h1>
-            <ul className="nav justify-content-end">
-              <li className="nav-item">
-                <button className="nav-link active" onClick={this.handlesubmit} name="Main">Main</button>
-              </li>
-              <li className="nav-item">
-                <button className="nav-link" onClick={this.handlesubmit} name="Project">Projects</button>
-              </li>
-              <li className="nav-item">
-                <button className="nav-link">Contact</button>
-              </li>
-            </ul>
-          </nav>
-        </header>
-        <br />
-        {page}
-        <footer>
-            <div className="fixed-bottom">
-                <p className="text-center">CopyRight IEL</p>
-            </div>
-        </footer>
+function Header(props) {
+  return (
+    <header style={{ backgroundImage: `url(${Background})` }} className="header">
+      <div className="headerTopContainer">
+        <img className="myFace" src={require("./image.jpg")} alt="not found" />
+        <ul className="ulList">
+          <li name="contact" onClick={props.handlesubmit}>
+            Contact
+          </li>
+          <li src="work" onClick={props.handlesubmit}>
+            Work
+          </li>
+          <li name="main" onClick={props.handlesubmit}>
+            Main
+          </li>
+        </ul>
       </div>
-    );
-  }
+      <div className="headerMidContainer">
+
+      </div>
+    </header>
+  );
 }
 
 export default Header;
 
-
-
-
-
-   
+/* <div className="topHeaderContainer">
+          </div>
+          <div className="mainContainer">
+            <div className="headerContainer">
+              <h2 className="intro1">Hello I'm Ismael Lopez</h2>
+            </div>
+            <div className="imgContainer">
+              <img src={require("./image.jpeg")} alt="not found" />
+            </div>
+            <div className="headerContainer">
+              <h2 className="intro">A Front End React Developer</h2>
+            </div>
+          </div> */
