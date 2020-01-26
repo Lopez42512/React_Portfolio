@@ -1,5 +1,5 @@
 import React from "react";
-import Background from "./background.jpg";
+import Background from "./photos/background.jpg";
 
 function Header(props) {
   let page
@@ -19,7 +19,7 @@ function Header(props) {
     <header className="header">
       <div className="backgroundImg" style={{ backgroundImage: `url(${Background})` }}></div>
       <div className="headerTopContainer">
-        <img className="myFace" src={require("./image.jpg")} alt="not found" />
+        <img className="myFace" src={require("./photos/image.jpg")} alt="not found" />
         <ul className="ulList">
           <li  onClick={props.handlesubmit}>
             CONTACT
@@ -44,16 +44,4 @@ function Header(props) {
 
 export default Header;
 
-/* <div className="topHeaderContainer">
-          </div>
-          <div className="mainContainer">
-            <div className="headerContainer">
-              <h2 className="intro1">Hello I'm Ismael Lopez</h2>
-            </div>
-            <div className="imgContainer">
-              <img src={require("./image.jpeg")} alt="not found" />
-            </div>
-            <div className="headerContainer">
-              <h2 className="intro">A Front End React Developer</h2>
-            </div>
-          </div> */
+

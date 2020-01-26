@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Main from "./Main";
 import Work from "./Work";
 import Header from "./Header"
+import Footer from "./Footer"
 
 class App extends Component {
   constructor() {
@@ -41,11 +42,7 @@ class App extends Component {
       <div>
         <Header page={this.state.page} handlesubmit={this.handlesubmit}/>
         {page}
-        <footer>
-          <div className="fixed-bottom">
-            <p className="text-center">CopyRight IEL</p>
-          </div>
-        </footer>
+        <Footer />
       </div>
     );
   }
