@@ -3,16 +3,16 @@ import Background from "./background.jpg";
 
 function Header(props) {
   let page
-  if (props.page === "Main"){
+  if (props.page === "MAIN"){
     page = <h2 className="helloName">Hello I'm Ismael Lopez</h2>
-  } else if (props.page === "Work") {
+  } else if (props.page === "WORK") {
     page = <h2 className="helloName">Work</h2>
   } else {
     page = <h2 className="helloName">Contact Me</h2>
   }
 
   let bottomPage 
-  if (props.page === "Main"){
+  if (props.page === "MAIN"){
     bottomPage = <h2 className='helloTitle'>A Full-Stack Developer</h2>
   }
   return (
@@ -21,14 +21,14 @@ function Header(props) {
       <div className="headerTopContainer">
         <img className="myFace" src={require("./image.jpg")} alt="not found" />
         <ul className="ulList">
-          <li name="contact" onClick={props.handlesubmit}>
-            Contact
+          <li  onClick={props.handlesubmit}>
+            CONTACT
           </li>
-          <li src="work" onClick={props.handlesubmit}>
-            Work
+          <li onClick={props.handlesubmit}>
+            WORK
           </li>
-          <li name="main" onClick={props.handlesubmit}>
-            Main
+          <li  onClick={props.handlesubmit}>
+            MAIN
           </li>
         </ul>
       </div>

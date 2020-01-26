@@ -7,7 +7,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      page: "Main"
+      page: "MAIN"
     };
   }
 
@@ -15,25 +15,25 @@ class App extends Component {
     event.preventDefault();
     console.log(event.target.innerText)
     switch (event.target.innerText) {
-        case "Main":
-            this.setState({page: "Main"});
+        case "MAIN":
+            this.setState({page: "MAIN"});
             break;
-        case "Work":
-            this.setState({page: "Work"});
+        case "WORK":
+            this.setState({page: "WORK"});
             break;
-        case "Contact":
-            this.setState({page: "Contact"})
+        case "CONTACT":
+            this.setState({page: "CONTACT"})
             break;
         default:
-            this.setState({page: "Main"});
+            this.setState({page: "MAIN"});
     }
   };
   render() {
     let page
     // const page = this.state.page === "Main" ? <Main /> : <Work />;
-    if (this.state.page === "Main"){
+    if (this.state.page === "MAIN"){
         page = <Main />
-    } else if (this.state.page === "Work"){
+    } else if (this.state.page === "WORK"){
         page = <Work />
     }
 
