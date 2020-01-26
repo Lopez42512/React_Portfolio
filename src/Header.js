@@ -10,7 +10,7 @@ function Header(props) {
   } else {
     page = <h2 className="helloName">Contact Me</h2>
   }
-
+  
   let bottomPage 
   if (props.page === "MAIN"){
     bottomPage = <h2 className='helloTitle'>A Full-Stack Developer</h2>
