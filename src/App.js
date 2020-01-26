@@ -7,21 +7,39 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      number: 0
+      page: "Main"
     };
   }
 
   handlesubmit = event => {
     event.preventDefault();
     console.log(event.target.innerText)
+    switch (event.target.innerText) {
+        case "Main":
+            this.setState({page: "Main"});
+            break;
+        case "Work":
+            this.setState({page: "Work"});
+            break;
+        case "Contact":
+            this.setState({page: "Contact"})
+            break;
+        default:
+            this.setState({page: "Main"});
+    }
   };
   render() {
-    console.log(this.state.number);
-    const page = this.state.number === 0 ? <Main /> : <Work />;
+    let page
+    // const page = this.state.page === "Main" ? <Main /> : <Work />;
+    if (this.state.page === "Main"){
+        page = <Main />
+    } else if (this.state.page === "Work"){
+        page = <Work />
+    }
 
     return (
       <div>
-        <Header handlesubmit={this.handlesubmit}/>
+        <Header page={this.state.page} handlesubmit={this.handlesubmit}/>
         {page}
         <footer>
           <div className="fixed-bottom">

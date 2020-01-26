@@ -2,8 +2,22 @@ import React from "react";
 import Background from "./background.jpg";
 
 function Header(props) {
+  let page
+  if (props.page === "Main"){
+    page = <h2 className="helloName">Hello I'm Ismael Lopez</h2>
+  } else if (props.page === "Work") {
+    page = <h2 className="helloName">Work</h2>
+  } else {
+    page = <h2 className="helloName">Contact Me</h2>
+  }
+
+  let bottomPage 
+  if (props.page === "Main"){
+    bottomPage = <h2 className='helloTitle'>A Full-Stack Developer</h2>
+  }
   return (
-    <header style={{ backgroundImage: `url(${Background})` }} className="header">
+    <header className="header">
+      <div className="backgroundImg" style={{ backgroundImage: `url(${Background})` }}></div>
       <div className="headerTopContainer">
         <img className="myFace" src={require("./image.jpg")} alt="not found" />
         <ul className="ulList">
@@ -19,7 +33,10 @@ function Header(props) {
         </ul>
       </div>
       <div className="headerMidContainer">
-
+          {page}
+      </div>
+      <div className="headerBottomContainer">
+          {bottomPage}
       </div>
     </header>
   );
