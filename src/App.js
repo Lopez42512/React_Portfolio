@@ -41,6 +41,7 @@ class App extends Component {
     return (
       <div>
         <Header page={this.state.page} handlesubmit={this.handlesubmit}/>
+        <br />
         {page}
         <Footer />
       </div>
