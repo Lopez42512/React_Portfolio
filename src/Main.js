@@ -21,13 +21,13 @@ function Main() {
       </div>
       <div className="whatIDo">
         <div className="hiContainer1">
-          <h2 className="hi1">What Can I Do?</h2>
+          <h2 className="hi1">What I Can Do</h2>
         </div>
         <div className="webContainer">
           <div className="frontEnd">
             <h2 className="devel">Front-End Developer</h2>
             <div className='devel1'>
-              I combine my knowledge of React, <br /> Javascript and Css to <br />create stunning and dynamic websites.
+              I combine my knowledge of React, <br /> Javascript and Css to create stunning <br /> and dynamic websites.
             </div>
             <h3 className="devel2">Languages:</h3>
             <div className="devel3">
@@ -37,6 +37,13 @@ function Main() {
           <div className="divLine"></div>
           <div className="backEnd">
             <h2 className="devel">Back-End Developer</h2>
+            <div className='devel1'>
+              I use NodeJs and MySql to handle <br /> the server and database for <br />my websites.
+            </div>
+            <h3 className="devel2">Languages:</h3>
+            <div className="devel3">
+              NodeJs, Express, MySql, Sequelize, API
+            </div>
           </div>
         </div>
       </div>
