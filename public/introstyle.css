@@ -49,11 +49,85 @@ body {
     position: absolute;
     top: 33%;
     width: 100%;
+    height: 5%;
     text-align: center
+}
+
+.whatIDo {
+    position: absolute;
+    width: 100%;
+    height: 62%;
+    top: 38%;
+    /* background-color: aqua */
+}
+
+.hiContainer1 {
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    background-color: brown
+}
+
+.hi1 {
+    position: absolute;
+    width: 100%;
+    top: 20%;
+    text-align: center;
+    font-size: 350%;
+    font-family: "Berkshire Swash", cursive
+}
+
+.webContainer {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top:10%;
+    /* background-color: pink      */
+}
+
+.frontEnd {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    /* margin-left: 20%;
+    margin-right: 50%; */
+    /* background-color: blue */
+}
+
+.backEnd {
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    left: 50%;
+    /* margin-left: 20%;
+    margin-right: 50%; */
+    background-color: purple
+}
+
+.devel {
+    position: absolute;
+    width: 100%;
+    top:5%;
+    text-align: center;
+    font-family: "Berkshire Swash", cursive
+}
+
+.devel1 {
+    position: absolute;
+    width: 100%;
+    top:15%;
+    text-align: center;
+    font-size: 150%;
+    color: black;
+    font-family: "Rajdhani", sans-serif;
 }
 
 @media only screen and (max-width: 759px) {
     .introSetUp {
         font-size: 150%
+    }
+
+    .hi1 {
+        font-size: 250%
     }
 }

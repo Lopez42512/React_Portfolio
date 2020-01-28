@@ -4,7 +4,7 @@ import Background from "./photos/background.jpg";
 function Header(props) {
   let page
   if (props.page === "MAIN"){
-    page = <h2 className="helloName">Hello I'm Ismael Lopez</h2>
+    page = <h2 className="helloName">I'm Ismael Lopez</h2>
   } else if (props.page === "WORK") {
     page = <h2 className="helloName">Work</h2>
   } else {

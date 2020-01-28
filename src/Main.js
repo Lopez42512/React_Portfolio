@@ -20,7 +20,21 @@ function Main() {
         - - - - - - - - - -
       </div>
       <div className="whatIDo">
-        
+        <div className="hiContainer1">
+          <h2 className="hi1">What Can I Do?</h2>
+        </div>
+        <div className="webContainer">
+          <div className="frontEnd">
+            <h2 className="devel">Front-End Developer</h2>
+            <div className='devel1'>
+              {/* I like to code in React so I can create <br />stunning and dynamic web pages. */}
+              I combine my knowledge of React, Javascript and Css to <br />create stunning and dynamic websites.
+            </div>
+          </div>
+          <div className="backEnd">
+            <h2 className="devel">Back-End Developer</h2>
+          </div>
+        </div>
       </div>
     </div>
   ) 
