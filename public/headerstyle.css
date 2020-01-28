@@ -33,7 +33,7 @@ body {
 
 .ulList li {
   font-family: "Rajdhani", sans-serif;
-  font-size: 220%;
+  font-size: 180%;
   display: inline-block;
   float: right;
   padding: 30px 30px 0px 10px;
@@ -74,7 +74,8 @@ li {
   text-align: center;
   top: 0%;
   font-family: "Berkshire Swash", cursive;
-  font-size: 320%;
+  font-size: 150%;
+  color: black
 }
 
 .footer {
@@ -101,11 +102,11 @@ li {
   }
 
   .helloName {
-    font-size: 220%;
+    font-size: 280%;
   }
 
   .helloTitle {
-    font-size: 220%;
+    font-size: 150%;
   }
 }
 
@@ -116,10 +117,10 @@ li {
   }
 
   .helloName {
-    font-size: 195%;
+    font-size: 280%;
   }
 
   .helloTitle {
-    font-size: 195%;
+    font-size: 150%;
   }
 }

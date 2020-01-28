@@ -21,7 +21,7 @@ body {
 .hi {
     position: absolute;
     width: 100%;
-    top: 50%;
+    top: 35%;
     text-align: center;
     font-size: 420%;
     font-family: "Berkshire Swash", cursive
@@ -42,7 +42,8 @@ body {
     height: 50%;
     text-align: center;
     font-family: "Rajdhani", sans-serif;
-    font-size: 200%
+    font-size: 200%;
+    color: black
 }
 
 .break {
@@ -65,7 +66,7 @@ body {
     position: absolute;
     width: 100%;
     height: 10%;
-    background-color: brown
+    /* background-color: brown */
 }
 
 .hi1 {
@@ -87,47 +88,125 @@ body {
 
 .frontEnd {
     position: absolute;
-    width: 50%;
+    width: 49.5%;
     height: 100%;
-    /* margin-left: 20%;
-    margin-right: 50%; */
-    /* background-color: blue */
+}
+
+.divLine {
+    position: absolute;
+    width: 1%;
+    height: 50%;
+    top:10%;
+    left:49.5%;
+    border-right-style: solid;
+    border-right-color:rgb(116, 108, 40);
 }
 
 .backEnd {
     position: absolute;
-    width: 50%;
+    width: 49.5%;
     height: 100%;
     left: 50%;
-    /* margin-left: 20%;
-    margin-right: 50%; */
-    background-color: purple
+    
 }
 
 .devel {
     position: absolute;
     width: 100%;
+    height:10%;
     top:5%;
     text-align: center;
-    font-family: "Berkshire Swash", cursive
+    color: black;
+    opacity: .8;
+    font-family: "Berkshire Swash", cursive;
+    /* background-color: brown */
+
 }
 
 .devel1 {
     position: absolute;
     width: 100%;
+    height: 20%;
     top:15%;
     text-align: center;
-    font-size: 150%;
+    font-size: 175%;
     color: black;
     font-family: "Rajdhani", sans-serif;
+    /* background-color: aquamarine */
 }
 
-@media only screen and (max-width: 759px) {
+.devel2 {
+    position: absolute;
+    width: 100%;
+    height:10%;
+    top:38%;
+    text-align: center;
+    color: black;
+    font-family: "Berkshire Swash", cursive;
+    /* background-color: greenyellow */
+
+}
+
+.devel3 {
+    position: absolute;
+    width: 100%;
+    height: 35%;
+    top:45%;
+    font-size: 175%;
+    color: black;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    /* background-color: aquamarine */
+
+}
+
+@media only screen and (max-width: 781px) {
     .introSetUp {
         font-size: 150%
     }
 
     .hi1 {
         font-size: 250%
+    }
+
+    .frontEnd{
+        width: 100%;
+        height: 50%;
+    }
+    .backEnd {
+        width: 100%;
+        height: 50%;
+        top:50%;
+        left: 0%;
+    }
+    .devel1 {
+        top:20%;
+        font-size: 150%
+    }
+    .devel2 {
+        top: 53%
+    }
+    .devel3 {
+        top: 65%;
+        font-size: 150%
+    }
+    .divLine {
+        width: 50%;
+        height: .1%;
+        top:49.5%;
+        left:25%;
+        border-bottom-style: solid;
+        border-bottom-color:rgb(116, 108, 40);
+    }
+}
+
+@media only screen and (max-width: 380px) {    
+    .devel1 {
+        top:20%;
+        font-size: 130%
+    }
+    .devel3 {
+        top: 65%;
+        font-size: 130%
     }
 }

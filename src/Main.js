@@ -27,10 +27,14 @@ function Main() {
           <div className="frontEnd">
             <h2 className="devel">Front-End Developer</h2>
             <div className='devel1'>
-              {/* I like to code in React so I can create <br />stunning and dynamic web pages. */}
-              I combine my knowledge of React, Javascript and Css to <br />create stunning and dynamic websites.
+              I combine my knowledge of React, <br /> Javascript and Css to <br />create stunning and dynamic websites.
+            </div>
+            <h3 className="devel2">Languages:</h3>
+            <div className="devel3">
+              React, Javascript, JQuery, AJAX, JSON <br /> HTML, CSS, Responsive Design <br /> Git, Command Line
             </div>
           </div>
+          <div className="divLine"></div>
           <div className="backEnd">
             <h2 className="devel">Back-End Developer</h2>
           </div>
