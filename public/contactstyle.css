@@ -1,0 +1,73 @@
+body{
+    margin: auto
+}
+
+.iContainer {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    /* background-color: coral */
+}
+
+.iHelp {
+    position: absolute;
+    width: 100%;
+    top: 40%;
+    text-align: center;
+    font-size: 320%;
+    font-family: "Berkshire Swash", cursive
+}
+
+.iHelp1 {
+    position: absolute;
+    /* background-color: purple; */
+    width: 100%;
+    top: 10%;
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 190%;
+    color: black
+}
+
+.iContainer1 {
+    display: flex;
+    justify-content: center;
+    /* position: relative; */
+    width: 100%;
+    height: 500px;
+    /* background-color: linen; */
+}
+
+.box {
+    position: relative;
+    min-width: 624px;
+    height: 80%; 
+    top:10%;
+    /* padding: 0 25% 0 25%; */
+    border-style: solid;
+    border-color: aqua
+} 
+
+.help {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+li {
+    font-family: "Rajdhani", sans-serif;
+    font-size: 180%;
+    display: inline-block;
+    /* float: right; */
+    padding: 30px 30px 0px 10px;
+    font-weight: bolder;
+  }
+
+
+
+@media only screen and (max-width: 781px) {
+    .iHelp1{
+        font-size: 150%;
+    }
+}
+

@@ -1,6 +1,7 @@
-import React, { Component } from "react";
-import Main from "./Main";
-import Work from "./Work";
+import React, { Component } from "react"
+import Main from "./Main"
+import Work from "./Work"
+import Contact from "./Contact"
 import Header from "./Header"
 import Footer from "./Footer"
 
@@ -29,6 +30,7 @@ class App extends Component {
             this.setState({page: "MAIN"});
     }
   };
+
   render() {
     let page
     // const page = this.state.page === "Main" ? <Main /> : <Work />;
@@ -36,6 +38,8 @@ class App extends Component {
         page = <Main />
     } else if (this.state.page === "WORK"){
         page = <Work />
+    } else {
+        page = <Contact />
     }
 
     return (
