@@ -21,7 +21,9 @@ function Contact() {
                     <h1 className="help">HEllo world</h1>
                     <ul>
                         <li>
-                            Email: Lopez42512@gmail.com  
+                            <a href="mailTo:Lopez42512@gmail.com?Subject=Hello%20Ismael">
+                                Email: Lopez42512@gmail.com  
+                            </a>
                         </li>
                     </ul>
                 </div>
