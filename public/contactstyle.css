@@ -34,7 +34,7 @@ body{
     justify-content: center;
     /* position: relative; */
     width: 100%;
-    height: 500px;
+    height: 400px;
     /* background-color: linen; */
 }
 
@@ -44,7 +44,7 @@ body{
     height: 80%; 
     /* top:10%; */
     /* padding: 0 25% 0 25%; */
-    /* border-style: solid;
+    /* border-style: dotted;
     border-color: aqua */
 } 
 
@@ -98,7 +98,7 @@ a {
     } */
 }
 
-@media only screen and (max-width: 325px) {
+@media only screen and (max-width: 345px) {
     /* .iHelp1{
         font-size: 100%;
     } */

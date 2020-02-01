@@ -33,12 +33,6 @@ function Contact() {
                 Linkedin: <a href="https://www.linkedin.com/in/ismael-lopez-924661181">
                 <i class="fa fa-address-card-o" style={{fontSize:24}}></i> </a>
             </li>
-            {/* <li className="contactMe">
-                Linkedin: <a href="https://www.linkedin.com/in/ismael-lopez-924661181">
-                <i class="fa fa-address-card-o" style={{fontSize:24}}></i>
-
-                </a>
-            </li> */}
           </ul>
         </div>
       </div>
