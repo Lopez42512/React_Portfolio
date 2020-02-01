@@ -44,8 +44,8 @@ body{
     height: 80%; 
     /* top:10%; */
     /* padding: 0 25% 0 25%; */
-    border-style: solid;
-    border-color: aqua
+    /* border-style: solid;
+    border-color: aqua */
 } 
 
 .help {
@@ -54,28 +54,62 @@ body{
     text-align: center;
 }
 
-li {
+.contactMe {
+    position: relative;
     font-family: "Rajdhani", sans-serif;
-    font-size: 120%;
-    display: inline-block;
+    font-size: 150%;
+    display: block;
+    text-align: center;
     /* float: right; */
-    padding: 30px 30px 0px 10px;
+    /* padding: 30px 30px 0px 80px; */
     font-weight: bolder;
   }
 
 a {
     text-decoration: none;
     color: rgb(116, 108, 40);
+    text-align: center
 }
 
 
-@media only screen and (max-width: 781px) {
+@media only screen and (max-width: 630px) {
+    .iHelp1{
+        font-size: 120%;
+    }
+
+
+    /* .box {
+        width: 400px;
+    } */
+}
+
+@media only screen and (max-width: 420px) {
     .iHelp1{
         font-size: 100%;
     }
 
+    .contactMe {
+        font-size: 120%
+    }
+
+
     /* .box {
-        min-width: ;
+        width: 400px;
+    } */
+}
+
+@media only screen and (max-width: 325px) {
+    /* .iHelp1{
+        font-size: 100%;
+    } */
+
+    .contactMe {
+        font-size: 110%
+    }
+
+
+    /* .box {
+        width: 400px;
     } */
 }
 
