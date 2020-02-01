@@ -22,7 +22,7 @@ function Contact() {
               Email:
               <a href="mailTo:Lopez42512@gmail.com?Subject=Hello%20Ismael">
                 <i
-                  class="fa fa-envelope"
+                  className="fa fa-envelope"
                   style={{
                     fontSize: "28px",
                     paddingLeft: 15,
@@ -42,7 +42,7 @@ function Contact() {
               Resume:{" "}
               <a href="https://docs.google.com/document/d/1LogCtJf-qj897HxZ31u1UQouMYNmkHllqkLsQgfLWD0/edit?usp=sharing">
                 <i
-                  class="fa fa-file-word-o"
+                  className="fa fa-file-word-o"
                   style={{ fontSize: 24, paddingRight: 25, color: "black" }}
                 ></i>
               </a>

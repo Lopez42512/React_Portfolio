@@ -9,13 +9,12 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      page: "MAIN"
+      page: "WORK"
     };
   }
 
   handlesubmit = event => {
     event.preventDefault();
-    console.log(event.target.innerText)
     switch (event.target.innerText) {
         case "MAIN":
             this.setState({page: "MAIN"});
@@ -45,6 +44,7 @@ class App extends Component {
     return (
       <div>
         <Header page={this.state.page} handlesubmit={this.handlesubmit}/>
+        <br />
         {page}
         <Footer />
       </div>

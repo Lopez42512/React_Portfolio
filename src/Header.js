@@ -6,7 +6,7 @@ function Header(props) {
   if (props.page === "MAIN"){
     page = <h2 className="helloName">Ismael Lopez</h2>
   } else if (props.page === "WORK") {
-    page = <h2 className="helloName">Work</h2>
+    page = <h2 className="helloName">Projects</h2>
   } else {
     page = <h2 className="helloName">Contact Me</h2>
   }

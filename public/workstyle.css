@@ -1,0 +1,92 @@
+body {
+    margin: auto
+}
+
+.workContainer {
+    position: relative;
+    width: 100%;
+    height: 700px;
+}
+
+.photoContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+}
+
+.photoBorder {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    background-color: rgb(209, 207, 207);
+    border-radius: 5%; 
+}
+
+.workPhoto {
+    position: relative;
+    width: 450px;
+    height: 80%; 
+    top: 10%  
+}
+
+.titleContainer {
+    height: 8%;
+}
+
+.workTitle {
+    text-align: center;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 320%;
+    color: black
+}
+
+.sumContainer {
+    height: 27%;
+    /* background-color: aqua */
+}
+
+.workSum {
+    text-align: center;
+    position: relative;
+    top:15%;
+    font-size: 130%;
+    color: black;
+}
+
+.buttonContainer {
+    display: flex;
+    justify-content: center;
+    height: 15%;
+    /* background-color: blue */
+}
+.buttonWebsite {
+    position: relative;
+    border-radius: 3%;
+    background-color: rgb(241, 49, 49);
+    width: 160px;
+    margin: 0px 40px 0px 40px;
+    height: 50%;
+}
+
+@media only screen and (max-width: 665px) {
+    .workSum {
+        font-size: 100%
+    } 
+}
+
+@media only screen and (max-width: 485px) {
+    .workPhoto {
+        width: 400px
+    } 
+
+    .buttonWebsite {
+        margin: 0px 20px 0px 20px;
+    }
+}
+
+@media only screen and (max-width: 410px) {
+    .workPhoto {
+        width: 310px
+    } 
+}
