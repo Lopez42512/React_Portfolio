@@ -25,7 +25,7 @@ function WorkContainer(props) {
         <button style={{backgroundColor: props.buttonColor}} className="buttonWebsite">
           <a
             style={{ color: "white" }}
-            href="https://lopez42512.github.io/Shout/index.html"
+            href= {props.titleLink}
           >
             View {props.title}!
           </a>
@@ -33,7 +33,7 @@ function WorkContainer(props) {
         <button style={{backgroundColor: props.buttonColor}} className="buttonWebsite">
           <a
             style={{ color: "white" }}
-            href="https://github.com/Lopez42512/Shout"
+            href= {props.gitLink}
           >
             View Github!
           </a>
