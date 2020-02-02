@@ -15,6 +15,9 @@ function Work() {
         buttonColor= "rgb(241, 49, 49)"
 
       />
+      <div className="break">
+        - - - - - - - - - -
+      </div>
       <br />
       <WorkContainer
         photo={require("./photos/work/statue.png")}

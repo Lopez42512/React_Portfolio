@@ -2,7 +2,7 @@ import React from "react";
 
 function WorkContainer(props) {
   return (
-    <div style={{ backgroundColor: "white" }} className="workContainer">
+    <div className="workContainer">
       <div style={{ backgroundColor: "" }} className="photoContainer">
         <div className="photoBorder">
           <img
