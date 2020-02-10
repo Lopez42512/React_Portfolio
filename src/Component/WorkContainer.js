@@ -14,7 +14,7 @@ function WorkContainer(props) {
       </div>
       <br />
       <div className="titleContainer">
-        <h2 className="workTitle">{props.title}</h2>
+        <h2 style={{fontSize: props.sizeFont}} className="workTitle">{props.title}</h2>
       </div>
       <div className="sumContainer">
         <div className="workSum">

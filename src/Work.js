@@ -20,6 +20,22 @@ function Work() {
       </div>
       <br />
       <WorkContainer
+        photo={require("./photos/work/memeGen.png")}
+        title="Meme Generator!"
+        sizeFont="280%"
+        summary= {`Meme Generator is a React app that allows the user to create their own memes.
+        The user select which meme they would like to use,
+        types out text and drag it to where they seem fit.`}
+        titleLink= "https://memegenerator-fd459.firebaseapp.com"
+        gitLink= "https://github.com/Lopez42512/ReactMemeGenerator"
+        buttonColor= "rgb(161, 120, 165)"
+
+      />
+      <div className="break">
+        - - - - - - - - - -
+      </div>
+      <br />
+      <WorkContainer
         photo={require("./photos/work/statue.png")}
         title="Statue Quest!"
         summary= {`Statue Quest is a scavenger hunt with the many statue in Philadelphia.
