@@ -47,6 +47,15 @@ function Work() {
         buttonColor= "rgb(66, 61, 61)"
 
       />
+      <br /> 
+      <WorkContainer 
+        photo={require("./photos/work/typingGame.png")}
+        title="Typing Game"
+        summary={"Test how fast you can type with this game built with React"}
+        titleLink="https://typinggame-6cf9a.firebaseapp.com"
+        gitLink="https://github.com/Lopez42512/TypingGame"
+        buttonColor= "green"
+      />
     </div>
   );
 }
